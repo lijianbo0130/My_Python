@@ -60,3 +60,11 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+# IDE相关，不再同步
+/.idea
+/*.iml
+/.classpath
+/*.eml
+/.project
+# 文本
+*.txt
