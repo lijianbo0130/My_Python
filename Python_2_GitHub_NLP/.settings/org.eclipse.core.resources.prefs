@@ -23,7 +23,9 @@ encoding//src/Jieba/example_read_only/\u63D0\u53D6\u6587\u7AE0\u4E2D\u7684\u4E2D
 encoding//src/Jieba/example_read_only/\u81EA\u5B9A\u4E49\u8BCD\u5178.py=utf-8
 encoding//src/project/delete_long_word/delecte_long_word.py=utf-8
 encoding//src/tool_file/get_sub_line/get_sub_line.py=utf-8
+encoding//src/tool_file/line_longger_than/line_longer_than.py=utf-8
 encoding//src/tool_file/merge_two_file/1_merge_two_file.py=utf-8
 encoding//src/tool_file/merge_two_file/2_merge_two_file_duplicate_remove.py=utf-8
+encoding//src/tool_file/minus/minus.py=utf-8
 encoding//src/\u6D4B\u8BD5\u6B67\u4E49\u53E5\u5B50/sentence.py=utf-8
 encoding/<project>=UTF-8
