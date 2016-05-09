@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
-encoding//src/Cut_Sentence/max_word_seg/max_word_seg.py=utf-8
+encoding//src/Cut_Sentence/max_ward_seg/max_backward_seg.py=utf-8
+encoding//src/Cut_Sentence/max_ward_seg/max_forward_seg.py=utf-8
 encoding//src/Cut_Sentence/unit_max_prob_Seg/a_sen_to_word_no_hmm/__init__.py=utf-8
 encoding//src/Cut_Sentence/unit_max_prob_Seg/a_sen_to_word_no_hmm/a1_dict_to_preSet.py=utf-8
 encoding//src/Cut_Sentence/unit_max_prob_Seg/a_sen_to_word_no_hmm/a2_get_dag.py=utf-8

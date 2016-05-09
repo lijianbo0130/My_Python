@@ -10,7 +10,7 @@ from __future__ import unicode_literals
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')  # @UndefinedVariable
-from Cut_Sentence.max_word_seg.max_word_seg import MaxSeg
+from Cut_Sentence.Cut_Sentence.max_word_seg.max_forword_segg
 
 
 def get_data():
