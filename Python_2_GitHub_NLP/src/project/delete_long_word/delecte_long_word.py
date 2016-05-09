@@ -3,6 +3,7 @@
 Created on 2016年5月6日
 @author: 李健博
 程序作用：
+使用了前向切分和后向切分
 找出词典中会被词典里面的词 切分后大于三的词
 '''
 from __future__ import division
