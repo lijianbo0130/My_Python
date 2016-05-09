@@ -11,7 +11,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')  # @UndefinedVariable
 
-fileDir = "newFile.txt"
+fileDir = "minus_longword.txt"
 
 lineLength = 7
 outFileName = "bigThan"+str(lineLength)+".txt"

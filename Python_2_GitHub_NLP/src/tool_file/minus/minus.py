@@ -13,7 +13,7 @@ sys.setdefaultencoding('utf-8')  # @UndefinedVariable
 
 
 bigFile="new_dict_no_duplicate.txt"
-smallFile="longword.txt"
+smallFile="longword2.txt"
 newFile="newFile.txt"
 
 lis_write=[]

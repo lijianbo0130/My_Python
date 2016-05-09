@@ -10,15 +10,15 @@ from __future__ import unicode_literals
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')  # @UndefinedVariable
-from Cut_Sentence.Cut_Sentence.max_word_seg.max_forword_segg
-
+from Cut_Sentence.max_ward_seg.max_backward_seg import MaxBackwardSeg
+from Cut_Sentence.max_ward_seg.max_forward_seg import MaxForwardSeg
 
 def get_data():
-    lis_write=[]
-    with open(r'new_dict_no_duplicate.txt','rb') as somefile:
+    lis_write = []
+    with open(r'new_dict_no_duplicate.txt', 'rb') as somefile:
         for line in somefile:
             line = line.decode('utf-8')
-            line= line.strip() # 去除换行符号
+            line = line.strip()  # 去除换行符号
             lis_write.append(line)
     return lis_write
             
@@ -26,18 +26,21 @@ def get_data():
 
 
 if __name__ == '__main__':
-    lis_write=[]
+    lis_write = []
     # 读取的词库文件名
-    lis_sen=get_data()
-    maxSeg = MaxSeg()
+    lis_sen = get_data()
+    maxBackSeg = MaxBackwardSeg()
+    maxForSeg = MaxForwardSeg()
     for sen in lis_sen:
-        lis_seg_return = maxSeg.seg_forward(sen)
-        if len(lis_seg_return)>=3:
+        lis_for_seg = maxForSeg.seg_forward(sen)
+        lis_back_seg = maxBackSeg.seg_backward(sen)
+        
+        if len(lis_for_seg) >= 3 or len(lis_back_seg) >= 3:
             lis_write.append(sen)
             
-    with open(r'1.txt','wb') as somefile:
-        for line in lis_write: # 不会自动换行
-            line+="\r\n"
+    with open(r'1.txt', 'wb') as somefile:
+        for line in lis_write:  # 不会自动换行
+            line += "\r\n"
             somefile.write(line)
     print "down"
     
