@@ -68,3 +68,4 @@ target/
 /.project
 # 文本
 *.txt
+*.pdf
