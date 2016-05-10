@@ -14,14 +14,20 @@ import jieba
 
 
 lis_write = []
-with open(r'minus_3.txt', 'rb') as somefile:
+with open(r'minus_4.txt', 'rb') as somefile:
     for line in somefile:
         line = line.decode('utf-8')
         line = line.strip()  # 去除换行符号
         seg_generator = jieba.cut(line, cut_all=False, HMM=True)
         seg_lis = list(seg_generator)
-        if len(seg_lis) >= 3:
+        if len(seg_lis) > 4:
             lis_write.append(line)
+        if len(seg_lis)==3:
+            if seg_lis[0] == "的" or seg_lis[1] == "的":
+                lis_write.append(line)
+
+                
+            
 
 with open(r'1.txt','wb') as somefile:
     for line in lis_write: # 不会自动换行

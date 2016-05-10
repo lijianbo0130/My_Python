@@ -12,9 +12,9 @@ reload(sys)
 sys.setdefaultencoding('utf-8')  # @UndefinedVariable
 
 
-bigFile="minus_longword2.txt"
-smallFile="bigThan7_2.txt"
-newFile="newFile.txt"
+bigFile="minus_4.txt"
+smallFile="1.txt"
+newFile="minus_5.txt"
 
 lis_write=[]
 with open(bigFile,'rb') as somefile:
