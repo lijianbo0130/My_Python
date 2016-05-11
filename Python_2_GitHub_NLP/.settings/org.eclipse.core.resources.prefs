@@ -9,10 +9,10 @@ encoding//src/Cut_Sentence/unit_max_prob_Seg/a_sen_to_word_no_hmm/a4_cut_sentenc
 encoding//src/Cut_Sentence/unit_max_prob_Seg/a_sen_to_word_no_hmm/a5_packing_one_file.py=utf-8
 encoding//src/Cut_Sentence/unit_max_prob_Seg/b_senten_hmm/a10_cut_senten_hmm.py=utf-8
 encoding//src/Cut_Sentence/unit_max_prob_Seg/b_senten_hmm/a5_packing.py=utf-8
-encoding//src/Jieba/example_for_modify/\u5206\u8BCD.py=utf-8
+encoding//src/Jieba/example_for_modify/1_\u5206\u8BCD.py=utf-8
+encoding//src/Jieba/example_for_modify/2_\u8BCD\u6027\u6807\u6CE8.py=utf-8
 encoding//src/Jieba/example_for_modify/\u6587\u7AE0\u5206\u8BCD.py=utf-8
 encoding//src/Jieba/example_for_modify/\u81EA\u5B9A\u4E49\u8BCD\u5178.py=utf-8
-encoding//src/Jieba/example_for_modify/\u8BCD\u6027\u6807\u6CE8.py=utf-8
 encoding//src/Jieba/example_read_only/1_0_\u5206\u8BCD.py=utf-8
 encoding//src/Jieba/example_read_only/1_1_\u5206\u8BCD\u7279\u4F8B\u5C55\u793A.py=utf-8
 encoding//src/Jieba/example_read_only/1_2_\u7528\u6237\u8BCD\u5178.py=utf-8
