@@ -314,10 +314,10 @@ encoding//src/ku/json_/basic/1_dumps_loads_\u5B58\u653E\u5728\u5185\u5B58\u4E2D.
 encoding//src/ku/json_/basic/2_load_dump_\u5B58\u653E\u5728\u6587\u4EF6\u91CC.py=utf-8
 encoding//src/ku/json_/basic/url.py=utf-8
 encoding//src/ku/marshal_/marshal_v.py=utf-8
-encoding//src/ku/math/MIN_FLOAT.py=utf-8
-encoding//src/ku/math/\u5C0F\u6570.py=utf-8
-encoding//src/ku/math/\u6307\u6570.py=utf-8
-encoding//src/ku/math/\u81EA\u7136\u5BF9\u6570.py=utf-8
+encoding//src/ku/math_/MIN_FLOAT.py=utf-8
+encoding//src/ku/math_/\u5C0F\u6570.py=utf-8
+encoding//src/ku/math_/\u6307\u6570.py=utf-8
+encoding//src/ku/math_/\u81EA\u7136\u5BF9\u6570.py=utf-8
 encoding//src/ku/matplot_/3D\u7EBF\u6846\u67B6.py=utf-8
 encoding//src/ku/matplot_/3d\u70B9.py=utf-8
 encoding//src/ku/matplot_/basic.py=utf-8
