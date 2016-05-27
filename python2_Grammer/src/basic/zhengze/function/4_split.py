@@ -23,10 +23,10 @@ import re
 # print b # ['a', 'a', 'ffff', '']
 
 # 留下分割的字符串 加一个()
-# s="a.a!ffff%"
-# re_han = re.compile(ur"([.!%])", re.U)
-# b=re_han.split(s)
-# print b # ['a', '.', 'a', '!', 'ffff', '%', '']
+s="a.a!ffff%"
+re_han = re.compile(ur"([.!%])", re.U)
+b=re_han.split(s)
+print b # ['a', '.', 'a', '!', 'ffff', '%', '']
 '''
 同时.!这些符号都被去掉了
 注意如果符号在最后或者在最前都会分出一个""
@@ -34,10 +34,10 @@ import re
 
 
 #多个h分割  用正则
-sp=re.compile(u"(?:h+)", re.U)
-a = u'hahhhahaaah'
-b=sp.split(a)
-print b # [u'', u'a', u'a', u'aaa', u'']  前后都为""
+# sp=re.compile(u"(?:h+)", re.U)
+# a = u'hahhhahaaah'
+# b=sp.split(a)
+# print b # [u'', u'a', u'a', u'aaa', u'']  前后都为""
 
 
 #多个中文拆分

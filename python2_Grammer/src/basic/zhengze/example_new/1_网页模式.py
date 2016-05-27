@@ -11,8 +11,14 @@ reload(sys)
 sys.setdefaultencoding('utf-8')  # @UndefinedVariable
 
 
+'''
+有两种正则，
+一种是http开头
+一种是www开头
+'''
 # http这种格式
 sen='''=13) {window.location='http://www.yuanan.org/news/index.php?page='}'''
+
 
 '''
 网址的正则表达式
@@ -23,7 +29,6 @@ lis=pattern.findall(sen)
 print lis # ['http://www.yuanan.org/news/index.php?page=']
 
 # www.baidu.com 这种格式
-sen="www.baiu.com aaa.com www.aaa"
-pattern=re.compile("www\..*?\.com")
-lis=pattern.findall(sen)# 以se结尾
-print lis  # ['se']
+# pattern=re.compile("www\..*?\.com")
+# lis=pattern.findall(sen)# 以se结尾
+# print lis  # ['se']

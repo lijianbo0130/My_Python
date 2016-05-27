@@ -11,8 +11,8 @@ from __future__ import unicode_literals
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')  # @UndefinedVariable
-from Cut_Sentence.max_ward_seg.max_backward_seg import MaxBackwardSeg
-from Cut_Sentence.max_ward_seg.max_forward_seg import MaxForwardSeg
+from Cut_Sentence.max_waCut_to_wordackward_seg import MaxBackwardSeg
+from Cut_Sentence.max_waCut_to_wordorward_seg import MaxForwardSeg
 
 def get_data():
     lis_write = []

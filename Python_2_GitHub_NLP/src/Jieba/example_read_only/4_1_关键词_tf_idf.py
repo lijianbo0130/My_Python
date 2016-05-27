@@ -31,12 +31,12 @@ words=jieba.analyse.textrank(s2, topK=20, withWeight=False, allowPOS=('ns', 'n',
 '''
 新词例子
 '''
-s3="李健博是一个好人"
+s3="李健博是一个好人我们都爱他"
 #需要先import jieba.analyse
 
 #第一个参数为句子 第二个参数为权值  值越小相关的词越少   是按重要的顺序的排的 最重要的的排第一
 words=jieba.analyse.extract_tags(s3,15) 
-words=jieba.analyse.textrank(s3, topK=20, withWeight=False, allowPOS=('ns', 'n', 'vn', 'v'))
+# words=jieba.analyse.textrank(s3, topK=20, withWeight=False, allowPOS=('ns', 'n', 'vn', 'v'))
 print list(words)
 for word in words:
     print word

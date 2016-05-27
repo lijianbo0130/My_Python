@@ -11,9 +11,9 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')  # @UndefinedVariable
 
-fileDir = "minus_5.txt"
+fileDir = "biaoshu_short_sen.txt"
 
-lineLength = 5
+lineLength = 18
 outFileName = "bigThan"+str(lineLength)+".txt"
 
 lis_write = []
