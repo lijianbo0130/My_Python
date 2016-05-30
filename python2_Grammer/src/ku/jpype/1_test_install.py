@@ -18,14 +18,12 @@ import  jpype
 
 # 得到jvm的路径
 jvmPath=jpype.getDefaultJVMPath() 
-print jvmPath
 print jvmPath  # C:\Program Files\Java\jdk1.7.0_79\jre\bin\server\jvm.dll
 # # 启动虚拟机
 jpype.startJVM(jvmPath)
 # # 是否启动
-# print isJVMStarted() # True
-# 
+print jpype.isJVMStarted() # True
 # # 调用类来输出
-# java.lang.System.out.println("hello world")
+jpype.java.lang.System.out.println("hello world")
 # # 关闭虚拟机
-# shutdownJVM()
+jpype.shutdownJVM()

@@ -67,3 +67,5 @@ target/
 # 文本
 *.txt
 *.pdf
+*.model
+*.vector
